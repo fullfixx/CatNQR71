@@ -1,0 +1,179 @@
+	body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8e8e8e+0,d9dbdd+17,ededed+49,d9dbdd+82,8e8e8e+100,969696+100 */
+background: rgb(142,142,142); /* Old browsers */
+background: -moz-linear-gradient(left, rgba(142,142,142,1) 0%, rgba(217,219,221,1) 17%, rgba(237,237,237,1) 49%, rgba(217,219,221,1) 82%, rgba(142,142,142,1) 100%, rgba(150,150,150,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(142,142,142,1) 0%,rgba(217,219,221,1) 17%,rgba(237,237,237,1) 49%,rgba(217,219,221,1) 82%,rgba(142,142,142,1) 100%,rgba(150,150,150,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(142,142,142,1) 0%,rgba(217,219,221,1) 17%,rgba(237,237,237,1) 49%,rgba(217,219,221,1) 82%,rgba(142,142,142,1) 100%,rgba(150,150,150,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e8e8e', endColorstr='#969696',GradientType=1 ); /* IE6-9 */
+   }
+   .basement { 
+    width: 1340px; /* Ширина элемента в пикселах */
+	height: 650px; /* Высота элемента в пикселах */
+    border: solid 0px black; 
+    padding: 0px; /* Поля вокруг текста */
+    margin-left: auto; /* Выравниваем по центру */
+	margin-right: auto; /* Выравниваем по центру */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+   }
+   .block_1 { 
+    width: 560px; 
+	height: 650px;
+    padding: 0px; 
+    border: dotted 0px black; 
+    float: left; 
+    position: relative; 
+	left: -1px;
+	top: -1px;
+   }
+
+   .block_2 { 
+    width: 500px; 
+	height: 650px;
+    background: #f9f8e7; 
+    padding: 0px; 
+    border: dotted 1px black; 
+    float: left; 
+    position: relative;
+	left: -1px;
+	top: -1px;
+   }
+    .block_3 { 
+    width: 273px; 
+	height: 650px;
+    background: #fafafa; 
+    padding: 0px; 
+    border: dotted 1px black; 
+    float: left; 
+    position: relative; 
+	left: 1px;
+	top: -1px;
+   }
+    .title { 
+    width: 556px; 
+	height: 59px;
+    background: #6e6e6e; 
+    padding: 0px; 
+    border: dotted 1px black; 
+    float: bottom; 
+    position: relative; 
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #fafafa;
+   }
+   .hint {
+	height: 59px;
+	line-height: 12px;
+    background: #6e6e6e; 
+    border: dotted black; 
+	border-width: 1px 0px;
+    float: bottom; 
+    position: relative; 
+	left: 0px;
+	top: 0px;
+	margin-bottom: -1px;
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #fafafa;
+	text-align: center;
+	}
+   .menu_main { 
+    width: 560px; 
+	height: 590px;
+    padding: 0px; 
+    border: dotted 0px black; 
+    float: top; 
+    position: relative; 
+	left: -1px;
+	top: -2px;
+	cursor: pointer;
+   }
+   .menu_1 { 
+    width: 278px; 
+	height: 589px;
+    padding: 0px; 
+    border: dotted 0px black; 
+    float: left; 
+    position: relative; 
+	left: 2px;
+	top: 0px;
+   }
+   .menu_2 { 
+    width: 278px; 
+	height: 589px;
+    padding: 0px; 
+    border: dotted 0px black; 
+    float: left; 
+    position: relative; 
+	left: 4px;
+	top: 0px;
+   }
+   .cell_left { 
+	height: 27px;
+    background: #f1f1f1; 
+    border: dotted 1px black; 
+    float: bottom; 
+    position: relative; 
+	left: -1px;
+	top: 4px;
+	margin-bottom: -1px;
+	line-height: 27px;
+	font-family: Verdana;
+	font-size: 8pt;
+	padding-left: 5px;
+   }
+   .cell { 
+	height: 27px;
+    background: #f1f1f1; 
+    border: dotted black; 
+	border-width: 1px 0px;
+    float: bottom; 
+    position: relative; 
+	left: 0px;
+	top: 0px;
+	margin-bottom: -1px;
+	line-height: 27px;
+	font-family: Verdana;
+	font-size: 8pt;
+	padding-left: 5px;
+   }
+
+   .cell:hover {
+    background: #fffcd5; 
+	}
+	.cell_left:hover {
+    background: #fffcd5; 
+	}
+	.cell a {
+     display: block; /* Ссылка как блочный элемент */
+     height: 100%; /* Высота на весь слой */
+     color: #000; /* Цвет ссылки */
+	 text-decoration: none;
+    }
+	span#title {
+	padding: 0px 40px;
+	}
+	span#hint {
+	color: #70d7fd;
+	}
+	.ReturnToShop {
+    border: 1px solid #333; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+	position: absolute;
+	right: 400px;
+	top: 10px;
+	font-family: tahoma;
+  }
+   .ReturnToShop:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+   }

@@ -1,0 +1,51 @@
+   .block1 { 
+    width: 290px;
+	height: 700px;
+    background: #ebebeb;
+    padding: 5px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+    position: relative; 
+    top: 61px; 
+   }
+   .block2 { 
+    width: 290px; 
+	height: 700px;
+    background: #ebebeb; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 61px; 
+    right: 1px; 
+   }
+    .block3 { 
+    width: 516px; 
+    background: #fc0; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 61px; 
+    right: 2px; 
+   }
+   .block4 { 
+    width: 200px; 
+	height: 700px;
+    background: #ebebeb; 
+    padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 61px; 
+    right: 3px; 
+	}
+   .block5 { 
+    width: 1344px; 
+	height: 50px;
+    background: #ebebeb; 
+    padding: 5px; 
+    border: solid 1px black; 
+    position: absolute; 
+	}

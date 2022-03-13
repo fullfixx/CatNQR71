@@ -1,0 +1,24 @@
+	.spring_rr { 
+    width: 500px; 
+	height: 650px;
+    background: #ebebeb; 
+    padding: 0px; 
+    border: dotted 1px black; 
+    float: left; 
+    position: relative;
+	left: -2px;
+	top: -1px;
+	display: none;
+   }
+   .fo { 
+    width: 500px; 
+	height: 650px;
+    background: #ebebeb; 
+    padding: 0px; 
+    border: dotted 1px black; 
+    float: left; 
+    position: relative;
+	left: -2px;
+	top: -1px;
+	display: block;
+   }
